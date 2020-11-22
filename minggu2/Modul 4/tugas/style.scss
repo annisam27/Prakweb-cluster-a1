@@ -1,0 +1,159 @@
+$color-primary: #000000;
+$background: white;
+$color-card: rgb(138, 180, 228);
+$color-hover: white;
+
+$img-header: url('img/hopeworld.png');
+
+$font-family: system-ui;
+
+a {
+    color: $color-primary;
+    text-decoration: under;
+}
+
+a:hover {
+    color: $color-hover;
+}
+
+body {
+    background: $background;
+    font-family: $font-family;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+
+}
+
+header {
+    background: $img-header;
+    background-size: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    display: block;
+
+
+    navbar {
+        align-self: flex-end;
+        width: 100%;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                padding: 2rem;
+                float: left;
+
+            }
+        }
+    }
+}
+
+main {
+
+    .deck {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+        width: 100%;
+
+        .card {
+            background-color: $color-card;
+            width: 30%;
+
+            .card-image {
+                height: 300px;
+                padding: 0;
+                width: auto;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .card-body {
+                .card-content {
+                    line-height: 2;
+                    padding: 2rem;
+
+                    h3 {
+                        margin: {
+                            top: 0;
+                            bottom: 2rem;
+                        }
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+
+                    .row {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 2rem;
+
+                        .content {
+                            font-weight: bolder;
+
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .card {
+        background: $color-card;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+
+        .card-thumbnail {
+            min-height: 250px;
+            min-width: 250px;
+            height: 250px;
+            width: 250px;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .card-body {
+            padding: 2rem;
+
+            .card-header {
+                p {
+                    font-size: 1rem;
+                    font-weight: bolder;
+
+                }
+            }
+
+            .card-content {
+                p {
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+    .card.reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+.container {
+    box-sizing: border-box;
+
+    padding: {
+        top: 1rem;
+        right: 2rem;
+        bottom: 2rem;
+        left: 1rem;
+    }
+}
