@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan 3</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            .container {
+                height: 100%;
+                width: 784px;
+                margin: 10px auto;
+                
+
+            }
+
+            #header {
+                background: url('BT21Header.jpg');
+                background-size: cover;
+                width: 784px;
+                height: 200px;
+             
+            }
+
+            .row {
+                height: fit-content;
+                width: 784px;
+                display: flex;
+                background: violet;
+            }
+
+            .col-3 {
+                height: auto;
+                width: 200px;
+                background: white;
+            }
+
+            .col-9 {
+                height: auto;
+                width: 584px;
+            }
+
+            #footer {
+                height: 100px;
+                width: 784px;
+                background:gray;
+
+            }
+        </style>
+</head>
+<body>
+<div class="container">
+<div id="header">         
+</div>
+<div class="row">
+<div class="col-3">
+
+<ul>
+
+<li> <a href="#">BT21 Caracters</a> </li>
+<li> <a href="#">Caracters Creation</a> </li>
+    </ul>
+    </div>
+    <div class="col-9">
+<h1>Line Friends x BT21</h1>
+<p>Line Friends teamed up with BTS to create the world of BT21. BT21 consists of 7 unique characters created according to the member's personalities along with their guardian protector, ARMY.
+“Rather than simply creating avatars of the physical appearance of artists, BT21 consists of 8 different charming characters created by BTS members, where all of them actively participated in the whole process from drawing sketches to elaboration.” — Official BT21 Website</p>
+
+<form>
+<h3>For Ordering you can fill the form below</h3>
+
+Name : <input type="text" name="Name">
+            <br/><br/>
+Gender : <input type="radio" name="gen" value="Man" checked /> 
+			Man
+	<input type="radio" name="gen" value="Woman" /> 
+			Woman
+            <br/><br/>
+Address : <input type="text" name="Address">
+            <br/><br/>
+Phone Number : <input type="text" name="Phone">
+			<br/><br/>
+Country:
+	<select>
+		<option>Indonesia</option>
+		<option>USA</option>
+		<option>Germany</option>
+		<option>Australia</option>
+    </select>
+            <br/><br/>
+Postal Code : <input type="text" name="Postal">
+			<br/><br/>
+Email : <input type="text" name="Email">
+            <br/><br/>	
+
+<input type="submit" name="submit" value="Send">
+</form>
+</div>
+</div>
+<footer id="footer">
+<span>Copyright 14117046_Annisa Maharani</span>
+</footer>
+</div>
+</body>
+</html>
