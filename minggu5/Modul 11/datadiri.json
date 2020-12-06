@@ -1,0 +1,15 @@
+{
+    "biodata": {
+        "nama" : "Hallo! Namaku Annisa Maharani.",
+        "hobby" : "hobinya nonton drakor, selain itu juga suka masak kalo lagi waktu senggang",
+        "alamat" : {
+            "text" : "aku lahir di Batam, tapi sekarang menetap di Lampung",
+            "kecamatan" : "Tanjung Senang",
+            "kota" : "Bandar Lampung"
+        },
+        "mediaSosial": {
+            "instagram" : "mhranisa",
+            "twitter" : "@pinkmacchiato"
+        }
+    }
+}
